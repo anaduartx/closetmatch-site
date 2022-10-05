@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Link to='#' className='menu-bars'>
                     <FaIcons.FaBars onClick={showSidebar} />
                 </Link>
-                <span className='navbar-title'>Closet Match</span>
+                <span className='navbar-title'>ClosetMatch</span>
                 <ul className='navbar-menu-items'>
                     {NavbarData.map((item, index) => {
                         return (

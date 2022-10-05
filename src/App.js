@@ -2,13 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './styles/app.css';
 import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
 import Home from './pages/Home';
 import QuemSomos from './pages/QuemSomos';
-import ComoFunciona from './pages/ComoFunciona';
-import Faq from './pages/Faq';
-import Tutorial from './pages/Tutorial';
-import Download from './pages/Download';
+import ComoFunciona from './pages/Teams';
+import Faq from './pages/Teams';
+import Tutorial from './pages/Teams';
+import Download from './pages/Teams';
 
 const App = () => {
   return (
@@ -23,7 +22,6 @@ const App = () => {
           <Route path='/tutorial' component={Tutorial} />
           <Route path='/download' component={Download} />
         </Switch>
-        {/* <Footer /> */}
       </Router>
     </>
   );

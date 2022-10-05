@@ -11,20 +11,20 @@ export const NavbarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Quem Somos?',
+        title: 'QuemSomos',
         path: '/quemsomos',
         icon: <IoIcons.IoIosFootball />,
         cName: 'nav-text'
     },
     {
-        title: 'Como Funciona?',
+        title: 'ComoFunciona',
         path: '/comofunciona',
         // icon: <FaIcons.FaTeamspeak />,
         icon: <AiIcons.AiOutlineTeam />,
         cName: 'nav-text'
     },
     {
-        title: 'FAQ',
+        title: 'Faq',
         path: '/faq',
         // icon: <FaIcons.FaTeamspeak />,
         icon: <AiIcons.AiOutlineTeam />,
